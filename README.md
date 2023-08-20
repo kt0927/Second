@@ -1,2 +1,1 @@
-# Second
-Second repository in Github.
+This is the second repository in Github.

@@ -2,11 +2,6 @@ name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
-  hoge :
-    runs-on: ubuntu-latest
-    steps: 
-      - name: Hoge Step
-      - run: echo Hoge World!
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
@@ -21,3 +16,8 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+  hoge :
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Hoge Step
+        run: echo Hoge World!
